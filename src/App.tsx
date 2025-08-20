@@ -1,10 +1,10 @@
 import { BrowseRouter as Router, Routes, Route } from "react-router-dom";
-import Landing from "./pages/Landing";
-import Login from "./pages/Login";
+import Landing from "./pages/Landing.tsx";
+import Login from "./pages/Login.tsx";
 import Register from "./pages/Register.tsx";
-import Home from "./pages/Home";
-import JobDetails from "./pages/JobDetails";
-import NotFound from "./pages/Notfound";
+import Home from "./pages/Home.tsx";
+import JobDetails from "./pages/JobDetails.tsx";
+import NotFound from "./pages/Notfound.tsx";
 import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
