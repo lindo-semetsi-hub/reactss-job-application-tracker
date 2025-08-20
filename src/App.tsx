@@ -1,7 +1,7 @@
 import { BrowseRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
-import Register from "./pages/Register";
+import Register from "./pages/Register.tsx";
 import Home from "./pages/Home";
 import JobDetails from "./pages/JobDetails";
 import NotFound from "./pages/Notfound";
