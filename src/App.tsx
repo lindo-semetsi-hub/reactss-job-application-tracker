@@ -3,15 +3,15 @@ import Landing from "./pages/Landing.tsx";
 import Login from "./pages/Login.tsx";
 import Register from "./pages/Register.tsx";
 import Home from "./pages/Home.tsx";
-import JobDetails from "./pages/JobDetails.tsx";
-import NotFound from "./pages/Notfound.tsx";
+import JobDetails from "./pages/JobDetails";
+import NotFound from "./pages/Notfound";
 import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Landing />} />
+        <Route path="/" element={<Landing />}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route

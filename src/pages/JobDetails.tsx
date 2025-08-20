@@ -1,4 +1,4 @@
-import { useparams } from "eact-router-dom";
+import { useparams } from "rea";
 
 function JobDetails() {
     const { id } = useparams();
