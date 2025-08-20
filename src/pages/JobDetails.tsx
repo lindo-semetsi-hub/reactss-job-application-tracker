@@ -1,4 +1,4 @@
-import { useparams } from "rea";
+import { useparams } from "react-router-dom"
 
 function JobDetails() {
     const { id } = useparams();
