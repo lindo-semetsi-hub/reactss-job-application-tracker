@@ -23,15 +23,15 @@ const statusColors: Record<string, string> = {
 const Home: React.FC = () => {
     return (
         <div style={{ padding: "20px" }}>
-            <h2>My Job Applictions</h2>
+            <h2>Your Job Applications</h2>
             {jobs.map((job) => (
                 <div
-                key={job.id}
-                style={{
-                    border: "1px solid #ccc",
-                    borderRadius: "8px",
-                    padding: "10px",
-                    marginBottom: "10px"
+     key={job.id}
+      style={{
+    border: "1px solid #ccc",
+     borderRadius: "8px",
+     padding: "10px",
+     marginBottom: "10px"
                 }}
                 >
             <h3>{job.company}</h3>
