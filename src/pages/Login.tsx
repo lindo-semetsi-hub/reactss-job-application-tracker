@@ -34,7 +34,7 @@ function Login () {
             onChange={(e) => setPassword(e.target.value)}
             />
             <br />
-            <button type="submit">Logic</button>
+            <button type="submit">Login</button>
             </form>
         </div>
     );
