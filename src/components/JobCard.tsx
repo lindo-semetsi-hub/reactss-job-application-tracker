@@ -24,7 +24,7 @@ function JobCard ({ job }: { job: Job }) {
         >
             <h3>{job.employer}</h3>
             <p>Role: {job.role}</p>
-            <p>Date Applied: {job.date}</p>
+            <p>Applied On: {job.date}</p>
         </div>
     );
 }
