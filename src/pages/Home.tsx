@@ -9,9 +9,9 @@ type Job = {
 };
 
 const jobs: Job[] = [
-    { id: 1, company: "Google", role: "Frontend Developer", status: "Applied", date: "2025-08-25" },
+    { id: 1, company: "MbeuTech Solutions", role: "Frontend Developer", status: "Applied", date: "2025-08-25" },
     { id: 2, company: "BBD", role: "Systems Tester", status: "Interviewed", date: "2025-07-29" },
-    { id: 3, company: "Amazon", role: "Researcher", status: "Rejected", date: "2025-08-27" },
+    { id: 3, company: "Tshwane University of Technology", role: "Researcher", status: "Rejected", date: "2025-08-27" },
 ];
 
 const statusColors: Record<string, string> = {

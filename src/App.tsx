@@ -6,6 +6,7 @@ import Home from "./pages/Home.tsx";
 import JobDetails from "./pages/JobDetails.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import PrivateRoute from "./components/PrivateRoute";
+import "./App.css";
 
 function App() {
   return (
